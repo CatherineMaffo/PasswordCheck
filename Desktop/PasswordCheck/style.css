@@ -1,0 +1,86 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1400px;
+    background-color: rgb(233, 136, 80);
+    padding: 0px;
+    margin: 0 auto;
+
+}
+
+.header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: white;
+
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.form{
+    display:grid;
+    justify-content: center;
+
+
+}
+
+#password_1{
+    height: 50px;
+    width:200px;
+    margin:5px;
+    
+}
+#password_2{
+    height: 50px;
+    width:200px;
+    margin:5px;
+    
+}
+#button{
+    text-align: center;
+    height: 30px;
+    width:200px;
+    margin:5px;
+    
+    
+}
+.sectionOne{
+    display: grid;
+    justify-content: center;
+}
+
+.sectionTwo{
+    width: 200px;
+    height: auto;
+    
+}
+
+@media only screen and (max-width:599px) {
+
+    .container{
+        display: flex;
+        
+    }
+   
+}
+
+@media only screen and (min-width:600px) {
+    .main{
+        display: flex;
+        justify-content: space-around;
+        
+    
+    }
+}
